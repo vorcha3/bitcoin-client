@@ -13,7 +13,7 @@
  *    See the License for the specific language governing permissions and
  *    limitations under the License.
  */
-package ru.paradoxs.bitcoin.http.exceptions;
+package org.bitcoin.http.exceptions;
 
 public class HttpSessionException extends RuntimeException {
     public HttpSessionException(String message) {
