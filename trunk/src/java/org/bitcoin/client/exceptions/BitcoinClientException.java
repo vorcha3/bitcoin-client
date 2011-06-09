@@ -13,7 +13,7 @@
  *    See the License for the specific language governing permissions and
  *    limitations under the License.
  */
-package ru.paradoxs.bitcoin.client.exceptions;
+package org.bitcoin.client.exceptions;
 
 public class BitcoinClientException extends RuntimeException {
     public BitcoinClientException(String message) {
