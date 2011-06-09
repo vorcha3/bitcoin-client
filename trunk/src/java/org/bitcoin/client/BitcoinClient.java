@@ -1,6 +1,8 @@
 /**
- * Copyright 2010 Aleksey Krivosheev (paradoxs.mail@gmail.com)
- *
+ * Copyright 2011 
+ *    Kara Rawson - Bat Country Entertainment (krawson@batcountryentertainment.com)
+ *    Aleksey Krivosheev (paradoxs.mail@gmail.com)
+ * 
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
  *    You may obtain a copy of the License at
@@ -22,13 +24,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-import org.apache.commons.httpclient.Credentials;
-import org.apache.commons.httpclient.UsernamePasswordCredentials;
-import ru.paradoxs.bitcoin.http.HttpSession;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import ru.paradoxs.bitcoin.client.exceptions.BitcoinClientException;
+import org.apache.http.auth.Credentials;
+import org.apache.http.auth.UsernamePasswordCredentials;
+import org.bitcoin.client.exceptions.BitcoinClientException;
+import org.bitcoin.http.HttpSession;
+import net.sf.json.JSONArray;
+import net.sf.json.JSONException;
+import net.sf.json.JSONObject;
 
 /**
  * A Java API for accessing a Bitcoin server.
