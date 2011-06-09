@@ -1,5 +1,7 @@
 /**
- * Copyright 2010 Aleksey Krivosheev (paradoxs.mail@gmail.com)
+ * Copyright 2011 
+ *    Kara Rawson - Bat Country Entertainment (krawson@batcountryentertainment.com)
+ *    Aleksey Krivosheev (paradoxs.mail@gmail.com)
  *
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
@@ -15,21 +17,17 @@
  */
 package org.bitcoin.http;
 
-import ru.paradoxs.bitcoin.http.exceptions.HttpSessionException;
+import org.bitcoin.http.exceptions.HttpSessionException;
 import java.io.IOException;
 import java.net.URI;
-import org.apache.commons.httpclient.Credentials;
-
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpException;
-import org.apache.commons.httpclient.HttpStatus;
-import org.apache.commons.httpclient.auth.AuthScope;
-import org.apache.commons.httpclient.methods.PostMethod;
-import org.apache.commons.httpclient.methods.RequestEntity;
-import org.apache.commons.httpclient.methods.StringRequestEntity;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONTokener;
+import net.sf.json.JSONException;
+import net.sf.json.JSONObject;
+import net.sf.json.util.JSONTokener;
+import org.apache.http.HttpException;
+import org.apache.http.HttpStatus;
+import org.apache.http.auth.AuthScope;
+import org.apache.http.auth.Credentials;
+import org.apache.http.client.HttpClient;
 
 /**
  * Manages the HTTP machinery for accessing the Bitcoin server.
