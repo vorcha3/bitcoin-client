@@ -1,0 +1,1 @@
+The Java client for the Bitcoin server. This project provides front end transaction integration using the Java programming language.
